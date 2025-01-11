@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8000', // Your backend URL
+  baseURL: 'https://employeemanagement-eppe.onrender.com', // Your backend URL
   withCredentials: true, // Ensure cookies are sent
 });
 

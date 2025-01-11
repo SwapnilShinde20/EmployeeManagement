@@ -19,7 +19,7 @@ import { sendEmail } from './config/webhookConfig.js';
 
 // Middleware setup
 app.use(cors({
-    origin: ["http://localhost:5173","http://localhost:5174"],
+    origin: ["http://localhost:5173","http://localhost:5174","https://employee-management-pied.vercel.app"],
     credentials:true
 })); // To enable cross-origin requests
 app.use(express.json()); // To parse JSON requests
